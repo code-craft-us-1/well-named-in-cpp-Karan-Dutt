@@ -1,7 +1,4 @@
-#pragma once
 #include "WellNamed/TestColor.h"
-//using namespace TelCoColorCoder;
-
 
 int main() {
 
