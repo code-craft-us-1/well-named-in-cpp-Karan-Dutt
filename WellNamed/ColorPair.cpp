@@ -32,7 +32,7 @@ namespace TelCoColorCoder
         return minorColor;
     }
 
-    ColorPair GetColorFromPairNumber(int pairNumber) {
+    /*ColorPair TelCoColorCoder::GetColorFromPairNumber(int pairNumber) {
         int zeroBasedPairNumber = pairNumber - 1;
         MajorColor majorColor =
             (MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
@@ -40,8 +40,8 @@ namespace TelCoColorCoder
             (MinorColor)(zeroBasedPairNumber % numberOfMinorColors);
         return ColorPair(majorColor, minorColor);
     }
-    int GetPairNumberFromColor(MajorColor major, MinorColor minor) {
+    int TelCoColorCoder::GetPairNumberFromColor(MajorColor major, MinorColor minor) {
         return major * numberOfMinorColors + minor + 1;
-    }
+    }*/
 
 }
